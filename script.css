@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: writer;
+    src: url(./Fonts/PlaypenSans-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: myName;
+    src: url(./Fonts/Podkova-VariableFont_wght.ttf);
+}
+body{
+    font-family: 'writer', Arial, Helvetica, sans-serif;
+    background-color: #f3f3f3fb;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 60rem;
+    /* border: 2px solid; */
+}
+
+header{
+    border-radius: 0 0 15px 15px;
+    background-color: #08034efb;
+    color: white;
+    text-align: center;
+    padding: 0.8em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 5px 0 0 40px;
+}
+
+.details h1 {
+    font-size: 3rem;
+    font-family: 'myName';
+}
+img{
+    border: 2px solid white;
+}
+
+
+
+.personal-info {
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+.personal-info p {
+    margin-top: 10px;
+    line-height: 28px;
+    text-align: justify;
+    font-family: 'writer', Arial, Helvetica, sans-serif;
+}
+.academic-record {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+table, td, th{
+    margin-top: 10px;
+    border: 2px inset;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+tr:nth-child(even){
+    background-color: #f3f3f3;
+}
+
+.hobbies {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+
+.projects {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+.projects ul {
+    margin-top: 10px;
+}
+.projects ul li {
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+.tv-shows {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+.tv-shows p {
+    margin-top: 10px;
+    line-height: 28px;
+    text-align: justify;
+}
+
+.hobbies {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+.hobbies ul {
+    margin-top: 10px;
+    padding: 0 0 0 24px;
+}
+.hobbies ul li {
+    list-style-type: lower-greek;
+    line-height: 28px;
+    padding-bottom: 7px;
+
+}
+.references {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+.references p {
+    margin-top: 10px;
+}
+
+
+
+footer{
+    background-color: #08034efb;
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+}
+footer .socials {
+    margin-top: 20px;
+}
+footer .socials a {
+    color: white;
+}
+footer .fa {
+    padding-right:20px;
+}
+
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 95%;
+    }
+    .details {
+        margin: 2px 0 0 10px;
+    } 
+    .details h1 {
+        font-size: 2.5rem;
+    }
+    footer {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+}
